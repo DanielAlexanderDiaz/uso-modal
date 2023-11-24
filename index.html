@@ -13,43 +13,60 @@
 </head>
     <body>
         <div class="contenedor">
+            <!--card-->
             <div class="card" style="width: 18rem;">
-                <img src="./assets/img/pilotos/perez.avif" class="card-img-top" alt="foto de sergio perez, piloto de formula uno">
-                <div class="card-body">
-                  <h5 class="card-title">CHECO PEREZ</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <!-- Button trigger modal -->
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    VER MÁS
-                  </button>
+                <div class="imagen">
+                    <img src="./assets/img/pilotos/perez.avif" class="card-img-top" alt="foto de sergio perez, piloto de formula uno">
                 </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">SERGIO PEREZ</h1>
-                            <!--<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+                <div class="card-body">
+                    <div class="card-body-nombre">
+                        <h2>SERGIO PEREZ</h2>
+                    </div>
+                    <div class="card-body-datos">
+                        <div class="card-body-datos-numero">
+                            <!--<h3>11</h3>-->
+                            <img src="./assets/img/numeros/11.avif" alt="">
+                        </div>
+                        <div class="card-body-datos-personal">
+                            <div class="card-body-datos-personal-pais">
+                                <p>MEXICO<img src="./assets/img/banderas/Mexico.webp" alt=""></p>
                             </div>
-                            <div class="modal-body">
-                                <div class="contenindo">
-                                    <div class="informacion-personal">
-                                        <p>Sergio Michel Pérez Mendoza, 
-                                            también conocido como Checo Pérez, es un piloto de automovilismo mexicano. 
-                                            Actualmente es miembro de la Escudería Telmex.
-                                            Desde 2021 es piloto de Red Bull en Fórmula 1, resultando subcampeón en 2023 y tercero en 2022.
-                                            Comenzó su carrera en 2004; en la Fórmula 3 Británica fue campeón de clase nacional en 2007. 
-                                            En 2009 debutó en la GP2 Series y al año siguiente fue subcampeón.</p>
-                                    </div>
-                                    <div class="estadisticas">
+                            <div class="card-body-datos-personal-escuderia">
+                                <p>RED BULL <img src="./assets/img/escuderias/red-bull.avif" alt=""></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="boton-modal">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">VER MÁS</button>
+                </div>
+            </div>
+            <!-- Modal-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">SERGIO PEREZ</h1>
+                        <!--<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+                        </div>
+                        <div class="modal-body">
+                            <div class="contenindo">
+                                <div class="informacion-personal">
+                                    <p>Sergio Michel Pérez Mendoza, 
+                                        también conocido como Checo Pérez, es un piloto de automovilismo mexicano. 
+                                        Actualmente es miembro de la Escudería Telmex.
+                                        Desde 2021 es piloto de Red Bull en Fórmula 1, resultando subcampeón en 2023 y tercero en 2022.
+                                        Comenzó su carrera en 2004; en la Fórmula 3 Británica fue campeón de clase nacional en 2007. 
+                                        En 2009 debutó en la GP2 Series y al año siguiente fue subcampeón.</p>
+                                </div>
+                                <div class="estadisticas">
 
-                                    </div>
                                 </div>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
