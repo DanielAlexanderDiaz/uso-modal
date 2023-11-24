@@ -1,0 +1,16 @@
+.contenedor{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: springgreen;
+}
+
+.contenedor .card{
+    border: steelblue 2px solid;
+}
+
+.card img{
+    padding: 10px 10px;
+}
