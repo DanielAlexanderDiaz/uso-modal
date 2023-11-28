@@ -104,16 +104,30 @@
 
 
 /*modal*/
+.modal-dialog{
+    border-top: 1px solid orange;
+    border-left: 1px solid orange;
+    border-right: 1px solid green;
+    border-bottom: 1px solid green;
+    border-radius: 10px;
+}
+
 .modal-content{
-    width: 1300px;
+    height: 550px;
 }
 
-.modal-img{
-    width: 300px;
+
+
+.modal-contenedor{
+    width: 800px;
 }
 
-.modal-cuerpo{
-    width: 1000px;
+.informacion-personal, .estadisticas{
+    height: 50%;
 }
+
+
+
+
 
 
