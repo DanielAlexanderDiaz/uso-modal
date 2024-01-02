@@ -17,10 +17,95 @@
 </head>
     <body>
         <div class="contenedor">
-            <!--card-->
+            <!--card max verstappen-->
             <div class="card" style="width: 18rem;">
                 <div class="imagen">
-                    <img src="./assets/img/pilotos/perez.avif" class="card-img-top" alt="foto de sergio perez, piloto de formula uno">
+                    <img src="./assets/img/pilotos/portada/max.avif" class="card-img-top" alt="foto de sergio perez, piloto de formula uno">
+                </div>
+                <div class="card-body">
+                    <div class="card-body-nombre">
+                        <h2>MAX VERSTAPPEN</h2>
+                    </div>
+                    <div class="card-body-datos">
+                        <div class="card-body-datos-numero">
+                            <!--<h3>11</h3>-->
+                            <img src="./assets/img/numeros/1.avif" alt="">
+                        </div>
+                        <div class="card-body-datos-personal">
+                            <div class="card-body-datos-personal-pais">
+                                <p>Holanda</p>
+                                <img src="./assets/img/banderas/paises-bajos.avif" alt="">
+                            </div>
+                            <div class="card-body-datos-personal-escuderia">
+                                <p>RED BULL</p>
+                                <img src="./assets/img/escuderias/red-bull.avif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="boton-modal">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#max">VER MÁS</button>
+                </div>
+            </div>
+
+            <!-- Modal max-->
+            <div class="modal fade" id="max"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content flex-row">
+                        <div class="modal-img d-flex">
+                            <img src="./assets/img/pilotos/perez-completo-3.png" alt="">
+                        </div>
+                        <div class="modal-contenedor d-flex flex-column">
+                            <div class="modal-header justify-content-center p-0 ">
+                                <h1 >MAX VERSTAPPEN</h1>
+                            </div>
+                            <div class="modal-body d-flex flex-column p-0">
+                                <div class="informacion-personal">
+                                    <div class="informacion-personal-titulo m-0">
+                                        <h5>INFORMACION PERSONAL</h5>
+                                    </div>
+                                    <div class="informacion-personal-contenido">
+                                        <ul>
+                                            <li>Nombre: </li>
+                                            <li>Edad: </li>
+                                            <li>Fecha Nacimiento: </li>
+                                            <li>Pais: </li>
+                                            <li>Año Debut: </li>
+                                            <li>Escuderia Actual: Red Bull Racing</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="estadisticas">
+                                    <div class="estadisticas-titulo m-0">
+                                        <h5>ESTADISTICAS</h5>
+                                    </div>
+                                    <div class="estadisticas-datos">
+                                        <ul>
+                                            <li>Carreras: 185</li>
+                                            <li>Victorias: 54</li>
+                                            <li>Podios: 98</li>
+                                            <li>Vueltas Rapidas: 30</li>
+                                            <li>Puntos: 2586,50</li>
+                                            <li>Abandonos: 31</li>
+                                            <li>Pole Positions: 32</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer p-0">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">SALIR</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--card sergio perez-->
+            <div class="card" style="width: 18rem;">
+                <div class="imagen">
+                    <img src="./assets/img/pilotos/portada/perez.avif" class="card-img-top" alt="foto de sergio perez, piloto de formula uno">
                 </div>
                 <div class="card-body">
                     <div class="card-body-nombre">
@@ -33,8 +118,8 @@
                         </div>
                         <div class="card-body-datos-personal">
                             <div class="card-body-datos-personal-pais">
-                                <p>MEXICO</p>
-                                <img src="./assets/img/banderas/Mexico.webp" alt="">
+                                <p>Mexico</p>
+                                <img src="./assets/img/banderas/mexico.avif" alt="">
                             </div>
                             <div class="card-body-datos-personal-escuderia">
                                 <p>RED BULL</p>
@@ -45,15 +130,16 @@
                 </div>
                 <div class="boton-modal">
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">VER MÁS</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sergio">VER MÁS</button>
                 </div>
             </div>
-            <!-- Modal-->
-            <div class="modal fade" id="exampleModal"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            
+            <!-- Modal sergio perez-->
+            <div class="modal fade" id="sergio"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content flex-row">
                         <div class="modal-img d-flex">
-                            <img src="./assets/img/pilotos/perez-completo-3.png" alt="">
+                            <img src="./assets/img/pilotos/completo/perez-completo.png" alt="">
                         </div>
                         <div class="modal-contenedor d-flex flex-column">
                             <div class="modal-header justify-content-center p-0 ">
