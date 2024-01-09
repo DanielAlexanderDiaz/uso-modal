@@ -183,24 +183,41 @@
 
 /*modal*/
 .modal-content{
-    height: 550px;
+    height: 560px;
+}
+
+.modal-img{
+    width: 558px;
+}
+.modal-img .modal-piloto{
+    position: relative;
+}
+
+.modal-img .modal-nombre{
+    font-family: Roboto-Regular; 
+    font-size: 30px;
+    top: 0px;
+    left: 10px;
+    margin: 0;
+    position: absolute;
+}
+
+.modal-img .modal-apellido{
+    font-family: Roboto-black;
+    font-size: 30px;
+    top: 25px;
+    left: 10px;
+    margin: 0;
+    position: absolute;
 }
 
 .modal-contenedor{
-    width: 800px;
-}
-
-.modal-header h1{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 45px;
+    width: 300px;
 }
 
 .informacion-personal, .estadisticas{
     height: 50%;
 }
-
-
-
 
 
 
